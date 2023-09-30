@@ -1,0 +1,112 @@
+.mobile-hide.spmobile {
+  display: none;
+}
+.mobile-hide.simobile {
+  display: none;
+}
+.footer.spfooter {
+  display: none;
+}
+.footer.sifooter {
+  display: none;
+}
+.mobile-menu.spmobileHide {
+  display: none;
+}
+.mobile-menu.simobileHide {
+  display: none;
+}
+.parent {
+  max-width: 21rem;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  position: absolute;
+  left: 50%;
+  top: calc(100vh - 40%);
+  transform: translate(-50%, -50%);
+}
+.heading {
+  text-align: center;
+}
+.input-section {
+  margin-top: 1rem;
+}
+.input-section input {
+  padding: 0.4rem 5rem;
+  width: 20rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+}
+.btn input {
+  padding: 0.5rem 9rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  background: #000;
+}
+.input-section input[placeholder] {
+  padding-left: 1rem;
+}
+.orline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 3%;
+}
+
+.orline::before {
+  content: "";
+  height: 1px;
+  width: 10rem;
+  background: #b8b8b8;
+}
+.orline::after {
+  content: "";
+  height: 1px;
+  width: 10rem;
+  background: #b8b8b8;
+}
+.otheroptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.otheroptions a {
+  text-decoration: none;
+  color: #000;
+  background: #f4f0f0;
+  width: 20rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.otheroptions a img {
+  max-width: 100%;
+  width: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  left: 13%;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-left: 0rem;
+}
+
+.content {
+  font-size: 0.75rem;
+  width: 23rem;
+  position: absolute;
+  left: 51%;
+  top: calc(100% - 5rem);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,1478 @@
+/* responsive or media query */
+@media (width<=320px) {
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+  .navbar {
+    height: 3rem;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .nav-component ul li a {
+    font-size: 0.8rem;
+  }
+  .third-section {
+    margin-left: 0rem;
+  }
+  .mobile-menu {
+    position: absolute;
+    display: flex;
+    gap: 0%;
+    right: 0.5rem;
+  }
+  .mobile-menu-buttons {
+    margin-right: 1rem;
+    display: flex;
+    gap: 0%;
+  }
+  .menu-icon i {
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  #cancle {
+    display: none;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .mobile-menu-buttons .one {
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+  .mobile-menu-buttons .two {
+    background: #fff;
+    padding: 4px 4px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 2rem;
+  }
+  .mobile-view-navbar {
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  .mobile-view-navbar.phoneshow {
+    display: inline-block;
+  }
+  .mobile-view-nav-component {
+    padding: 0.5rem 1rem;
+  }
+  .mobile-view-nav-component li {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  .mobile-view-nav-component li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .mobile-view-nav-component li i {
+    color: #000;
+  }
+  .mobile-view-nav-component li .fa-chevron-down {
+    margin-left: 5rem;
+    cursor: pointer;
+  }
+  #languages a,
+  i {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  #cancle {
+    display: none;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  #cancle.view {
+    display: inline-block;
+  }
+  #menu.viewmenu {
+    display: none;
+  }
+  .mobile-view-nav-component .products a {
+    width: 90%;
+    padding: 8px 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #f4f0f0;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+  }
+  .mobile-show-horizontal.mobilehide {
+    display: none;
+  }
+  .mobile-show-horizontal {
+    font-size: 0.8rem;
+  }
+  .mobile-show-horizontal h3 {
+    font-weight: 400;
+    padding: 0.5rem;
+  }
+  .backImg {
+    display: none;
+  }
+  .three-section-icon div {
+    padding: 0 0rem;
+  }
+  .first-section-icon {
+    margin-left: 1rem;
+  }
+  .box-section {
+    position: initial;
+    height: 100%;
+    width: 100%;
+  }
+  .three-section-icon {
+    padding: 1rem 0;
+  }
+  .home-heading h1 {
+    margin: 0.5rem 1rem;
+  }
+  .home-heading .circle {
+    margin: 3rem 2rem;
+  }
+  .location-input,
+  .destination-input {
+    width: 85%;
+    margin-left: 1rem;
+  }
+  input[placeholder] {
+    padding-left: 2.5rem;
+  }
+  .location-input {
+    margin-top: 0rem;
+  }
+  .home-heading .left-line {
+    margin: -1rem 2.18rem;
+  }
+  .home-heading .square {
+    margin: 3.2rem 2rem;
+  }
+  .home-button {
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-button a {
+    margin-left: 0rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .home-content-dialogue {
+    margin-top: -2rem;
+  }
+  .dialogue-text {
+    margin: -18rem 0.5rem;
+  }
+  .dialogue-text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .dialogue-text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .two-div {
+    display: initial;
+    margin-bottom: 2rem;
+  }
+  .third-section {
+    width: 95%;
+    margin-left: 0.5rem;
+  }
+  .main-heading {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .main-heading h1 {
+    font-size: 1.5rem;
+  }
+  .first-div-description h4 {
+    font-size: 1.3rem;
+  }
+  .first-div-description p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .first-div-description a {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .second-div {
+    margin-left: 0rem;
+  }
+  .home-section-2-wrap {
+    display: initial;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .home-section-2-wrap .first-div {
+    margin-bottom: 2rem;
+  }
+  .home-section-2-wrap .first-div-content h5 {
+    margin-top: 0.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .home-section-2-wrap .first-div-content p {
+    margin-bottom: 1.5rem;
+  }
+  .vehical-section-grid {
+    display: initial;
+    margin-left: 0rem;
+  }
+  .vehical-section-first {
+    gap: 0%;
+    margin-bottom: 2rem;
+  }
+  .vehical-marker h1 {
+    padding-right: 0.5rem;
+  }
+  .qr-code-box-flex {
+    display: initial;
+    padding-bottom: 3rem;
+  }
+  .qr-code-box-section {
+    height: 11rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .qrcode-img {
+    margin: 3rem 1rem;
+  }
+  .qrcode-content {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .qrcode-content p {
+    font-size: 1rem;
+  }
+  .qr-code-icon {
+    margin: 3rem 1rem;
+  }
+  .last-section .two-sections {
+    display: initial;
+    margin-bottom: 2rem;
+  }
+  .last-section .two-sections .section-one {
+    margin: 2rem 0rem;
+    margin-right: 0rem;
+    font-size: 0.8rem;
+  }
+  .last-section .two-sections .section-one .last-section-icon {
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+  }
+  .last-section .two-sections .bottom-line1 {
+    width: 95%;
+    position: initial;
+    float: none;
+    height: 0;
+  }
+  .last-section .two-sections .bottom-line2 {
+    width: 95%;
+    height: 0;
+    left: 0;
+    position: initial;
+    margin-bottom: 2rem;
+  }
+  .footer-section {
+    padding: 2rem 0;
+    margin-left: 0.5rem;
+  }
+  .uber-logo p {
+    padding: 5px 0;
+  }
+
+  .row-part {
+    display: initial;
+  }
+  .row-part .first-part {
+    margin-bottom: 1rem;
+  }
+  .icons p {
+    padding-right: 3rem;
+    font-size: 1.1rem;
+  }
+  .english-left {
+    margin-left: -19rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+  }
+  .location {
+    margin-top: 3rem;
+  }
+  .playstore-icons {
+    width: 7rem;
+  }
+  .playstore-icons img {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .privacy-rights {
+    display: initial;
+  }
+  .privacy-rights p {
+    padding-right: 0;
+    font-size: 0.8rem;
+  }
+  .privacy-rights .pr2 p {
+    padding-right: 5%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* for mobile phones */
+@media (width>= 320px) and (width<=480px) {
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .nav-component {
+    margin: 1rem 0;
+  }
+
+  .nav-component ul li {
+    padding: 0;
+    list-style: none;
+  }
+  .nav-component ul li a {
+    font-size: 0.8rem;
+  }
+
+  .box-section {
+    position: inherit;
+    top: 6rem;
+    height: 85%;
+    left: 0rem;
+    width: 100%;
+    background: #fff;
+  }
+  .home-heading i {
+    color: #aaa;
+    display: inline;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 85%;
+  }
+  .three-section-icon {
+    padding: 1rem 1rem;
+  }
+  .three-section-icon div {
+    text-align: center;
+    padding: 0 0rem;
+  }
+  .backImg {
+    display: none;
+  }
+
+  .home-heading {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .home-heading h1 {
+    margin: 1rem 2rem;
+    /* margin-bottom: 0px; */
+  }
+  .home-heading .circle {
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    height: 8px;
+    border: 2px solid black;
+    margin: 1.4rem 2rem;
+  }
+  input[placeholder] {
+    padding-left: 2.5rem;
+  }
+  .location-input,
+  .destination-input {
+    width: 92%;
+    height: 3rem;
+    background-color: rgb(232, 232, 223);
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    display: block;
+    margin-left: 1rem;
+    color: #000;
+  }
+  .home-heading .left-line {
+    background: black;
+    width: 0.5px;
+    height: 4rem;
+    margin: -1rem 2.18rem;
+    position: absolute;
+  }
+  .home-heading .square {
+    border: 2px solid black;
+    width: 8px;
+    height: 8px;
+    margin: 3.2rem 2rem;
+    position: absolute;
+  }
+  .home-button {
+    margin: 2rem 0.8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-button a {
+    padding: 10px 28px;
+    text-decoration: none;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    margin-left: 0rem;
+    border-radius: 5px;
+  }
+  .home-button .secondButton {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .home-content-dialogue {
+    margin-top: -10%;
+  }
+  .img-box {
+    width: 100%;
+  }
+
+  .img-box img.mobile {
+    display: initial;
+    filter: none;
+  }
+  .dialogue-text {
+    margin: -15rem 0.5rem;
+  }
+  .dialogue-text h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .dialogue-text p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .dialogue-text a {
+    padding: 10px 15px;
+  }
+  .third-section {
+    width: 92%;
+    margin-left: 1rem;
+  }
+  .main-heading {
+    margin-bottom: 1rem;
+  }
+  .main-heading h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .two-div {
+    display: initial;
+    margin-bottom: 8rem;
+  }
+  .first-div {
+    margin-bottom: 1.5rem;
+  }
+  .first-div-description h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .first-div-description p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  .first-div-description a {
+    font-size: 0.9rem;
+    color: black;
+    padding-right: 1rem;
+    display: block;
+    margin-bottom: 0.9rem;
+    font-weight: 500;
+  }
+  .second-div {
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+  }
+  .first-div-description h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .first-div-description p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  .home-section-2-wrap {
+    display: initial;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+  .home-section-2-wrap .first-div {
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .vehical-heading h1 {
+    font-size: 1.7rem;
+  }
+  .vehical-section-grid {
+    display: initial;
+  }
+  .vehical-section-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-bottom: 2rem;
+  }
+  .vehical-img {
+    width: 27rem;
+  }
+  .vehical-content-section h1 {
+    font-size: 1.3rem;
+    padding-bottom: 0.3rem;
+  }
+  .vehical-content-section p {
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+  .vehical-marker h1 {
+    padding-right: 0rem;
+  }
+  .uber-app-qrcode {
+    background: none;
+  }
+  .qr-code-heading {
+    padding: 2rem 0px;
+    font-size: 0.859rem;
+  }
+  .qr-code-box-flex {
+    display: initial;
+    padding-bottom: 0rem;
+  }
+  .qr-code-box-section {
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 2px solid #f4f0f0;
+  }
+  .qrcode-img {
+    /* margin: 1.8rem 1.5rem; */
+    width: 15%;
+  }
+  .qrcode-content {
+    margin: 10% 0;
+    font-size: 1rem;
+  }
+  .qrcode-content h1 {
+    font-size: 1.2rem;
+  }
+  .qrcode-content p {
+    display: none;
+  }
+  .qr-code-icon {
+    margin: 2rem 10%;
+  }
+  .last-section .two-sections {
+    display: initial;
+  }
+  .last-section .two-sections .section-one {
+    display: flex;
+    margin: 15% 0%;
+  }
+  .section-one h1 {
+    font-size: 1.5rem;
+  }
+  .last-section .two-sections .section-one .last-section-icon {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin-top: 0rem;
+  }
+  .last-section .two-sections {
+    display: initial;
+  }
+  .last-section .two-sections .bottom-line1 {
+    width: 60%;
+    height: 0;
+    margin-top: -2rem;
+  }
+  .last-section .two-sections .bottom-line2 {
+    width: 60%;
+    margin-top: -2rem;
+    height: 0;
+    left: 5%;
+  }
+  .footer-section {
+    padding: 2rem 0;
+    margin-left: 1rem;
+  }
+  .uber-logo h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .uber-logo p {
+    padding: 1rem 0;
+  }
+  .row-part {
+    display: initial;
+    margin-bottom: 2rem;
+  }
+  .first-part h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .footer ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .icons p {
+    padding-right: 2.9rem;
+  }
+
+  .english-left {
+    margin-left: -19rem;
+    margin-top: 3rem;
+  }
+  .location {
+    margin-top: 3rem;
+  }
+  .playstore-icons {
+    margin-bottom: 2rem;
+    width: 10rem;
+  }
+  .playstore-icons img {
+    max-width: 100%;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  .privacy-rights {
+    display: initial;
+  }
+  .privacy-rights p {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .privacy-rights .pr2 {
+    display: flex;
+  }
+  .privacy-rights p {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .privacy-rights .pr2 p {
+    padding-right: 15%;
+  }
+  .privacy-rights p {
+    padding-right: 47%;
+  }
+  .mobile-menu {
+    position: absolute;
+    display: flex;
+    gap: 0%;
+    right: 0.5rem;
+  }
+  .mobile-menu-buttons {
+    margin-right: 1rem;
+    display: flex;
+    gap: 0%;
+  }
+  .mobile-menu-buttons .one {
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+  .mobile-menu-buttons .two {
+    background: #fff;
+    padding: 5px 6px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 2rem;
+  }
+  .menu-icon i {
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .mobile-view-navbar {
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  .mobile-view-navbar.phoneshow {
+    display: inline-block;
+  }
+  .mobile-view-nav-component {
+    padding: 0.5rem 1rem;
+  }
+  .mobile-view-nav-component li {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  .mobile-view-nav-component li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .mobile-view-nav-component li i {
+    color: #000;
+  }
+  .mobile-view-nav-component li .fa-chevron-down {
+    margin-left: 6.5rem;
+  }
+  #languages a,
+  i {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  #cancle {
+    display: none;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  #cancle.view {
+    display: inline-block;
+  }
+  #menu.viewmenu {
+    display: none;
+  }
+  .mobile-view-nav-component .products a {
+    width: 90%;
+    padding: 8px 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #f4f0f0;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+  }
+  .mobile-show-horizontal.mobilehide {
+    display: none;
+  }
+  .mobile-show-horizontal {
+    font-size: 0.8rem;
+  }
+  .mobile-show-horizontal h3 {
+    font-weight: 400;
+    padding: 0.5rem;
+  }
+}
+
+/*for tablets and ipads   */
+@media (width>=481px) and (width<=768px) {
+  .mobile-hide {
+    display: none;
+  }
+  .img-box img.mobile {
+    display: initial;
+    filter: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .backImg {
+    display: none;
+  }
+  .box-section {
+    position: initial;
+    height: 100%;
+    width: 100%;
+  }
+  .three-section-icon {
+    padding: 1rem;
+  }
+  .home-heading h1 {
+    margin: 1rem;
+  }
+  .home-heading .circle {
+    margin: 3.1rem 6%;
+  }
+  .location-input,
+  .destination-input {
+    width: 92%;
+    display: block;
+    margin-left: 1rem;
+  }
+
+  input[placeholder] {
+    padding-left: 11%;
+  }
+  .location-input {
+    margin-top: 0rem;
+  }
+  .home-heading .left-line {
+    margin: -1rem 6.4%;
+  }
+  .home-heading .square {
+    margin: 3.2rem 5.8%;
+  }
+  .home-button {
+    margin: 2rem 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .home-button a {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+  }
+  .home-content-dialogue {
+    margin-top: -7%;
+  }
+  .dialogue-text {
+    position: absolute;
+    margin: -17rem 1rem;
+  }
+  .third-section {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .main-heading {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .two-div {
+    display: initial;
+    margin-bottom: 2rem;
+  }
+  .first-div-description {
+    margin-bottom: 1rem;
+  }
+  .first-div-description a {
+    padding-bottom: 1rem;
+    display: block;
+  }
+  .second-div {
+    margin-left: 0rem;
+  }
+  .home-section-2-wrap {
+    display: initial;
+    margin-bottom: 3rem;
+  }
+  .home-section-2-wrap .first-div {
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+  }
+  .vehical-section-grid {
+    display: initial;
+    margin-left: 1rem;
+  }
+  .vehical-section-first {
+    gap: 1%;
+    margin-bottom: 5rem;
+  }
+  .vehical-marker h1 {
+    padding-right: 3rem;
+  }
+  .qr-code-box-flex {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .qr-code-box-section {
+    height: 10rem;
+    width: 93%;
+    margin-bottom: 2rem;
+  }
+  .qrcode-img {
+    margin: 8% 5%;
+    width: 19%;
+  }
+  .qrcode-content {
+    margin: 11% 0;
+    font-size: 1.2rem;
+  }
+  .qr-code-icon {
+    margin: 11% 5%;
+  }
+  .last-section .two-sections {
+    display: block;
+  }
+  .last-section .two-sections .section-one {
+    margin: 6% 0rem;
+    margin-right: 18%;
+    font-size: 1rem;
+  }
+  .last-section .two-sections .section-one .last-section-icon {
+    margin-left: 3rem;
+    font-size: 1.7rem;
+    margin-top: -1rem;
+  }
+  .last-section .two-sections .bottom-line1 {
+    width: 70%;
+    height: 0rem;
+    margin-top: -1rem;
+  }
+  .last-section .two-sections .bottom-line2 {
+    width: 70%;
+    left: 3%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+  }
+  .footer-section {
+    padding: 2rem 0;
+    margin-left: 1rem;
+  }
+  .uber-logo h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .uber-logo p {
+    padding: 1rem 0;
+  }
+  .row-part {
+    display: initial;
+    margin-bottom: 2rem;
+  }
+  .first-part h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .footer ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .icons p {
+    padding-right: 2.9rem;
+  }
+
+  .english-left {
+    margin-left: -19rem;
+    margin-top: 3rem;
+  }
+  .location {
+    margin-top: 3rem;
+  }
+  .playstore-icons {
+    margin-bottom: 2rem;
+    width: 10rem;
+  }
+  .playstore-icons img {
+    max-width: 100%;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  .privacy-rights {
+    display: initial;
+  }
+  .privacy-rights p {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .privacy-rights .pr2 {
+    display: flex;
+  }
+  .privacy-rights p {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  .privacy-rights .pr2 p {
+    padding-right: 15%;
+  }
+  .privacy-rights p {
+    padding-right: 47%;
+  }
+  .mobile-menu {
+    position: absolute;
+    display: flex;
+    gap: 0%;
+    right: 0.5rem;
+  }
+  .mobile-menu-buttons {
+    margin-right: 1rem;
+    display: flex;
+    gap: 0%;
+  }
+
+  .mobile-menu-buttons .one {
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+  .mobile-menu-buttons .two {
+    background: #fff;
+    padding: 5px 6px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 2rem;
+  }
+  .menu-icon i {
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .mobile-view-navbar {
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  .mobile-view-navbar.phoneshow {
+    display: inline-block;
+  }
+  .mobile-view-nav-component {
+    padding: 0.5rem 1rem;
+  }
+  .mobile-view-nav-component li {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  .mobile-view-nav-component li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .mobile-view-nav-component li i {
+    color: #000;
+  }
+  .mobile-view-nav-component li .fa-chevron-down {
+    margin-left: 6.5rem;
+  }
+  #languages a,
+  i {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  #cancle {
+    display: none;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  #cancle.view {
+    display: inline-block;
+  }
+  #menu.viewmenu {
+    display: none;
+  }
+  .mobile-view-nav-component .products a {
+    width: 90%;
+    padding: 8px 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #f4f0f0;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+  }
+  .mobile-show-horizontal.mobilehide {
+    display: none;
+  }
+  .mobile-show-horizontal {
+    font-size: 0.8rem;
+  }
+  .mobile-show-horizontal h3 {
+    font-weight: 400;
+    padding: 0.5rem;
+  }
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+}
+
+/* desktop view */
+@media (width>=769px) and (width<=1024px) {
+
+  .navbar .mobile-menu {
+    position: absolute;
+    margin-left: 85%;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .navbar .third-section {
+    width: 98%;
+    margin-left: 0;
+  }
+  .nav-component {
+    margin: 0;
+  }
+  .nav-component ul {
+    display: inline-flex;
+  }
+  .nav-component ul li {
+    padding: 0 1rem;
+  }
+  .right-side ul li {
+    margin-left: 1rem;
+  }
+  .right-side ul li .box-white {
+    display: inline;
+  }
+  .show-horizontal {
+    margin-left: 7rem;
+  }
+  .langNames h1 {
+    padding-left: 0;
+  }
+  .lang {
+    margin-left: 1.5rem;
+  }
+  .backImg img {
+    max-width: 100%;
+    height: calc(100vh - 4rem);
+    object-fit: cover;
+  }
+  .box-section {
+    top: 6rem;
+    left: 1rem;
+  }
+  .dialogue-text {
+    margin: -15rem 2rem;
+  }
+  .third-section {
+    width: 95%;
+    margin-left: 0.5rem;
+  }
+  .two-div {
+    margin-bottom: 2rem;
+  }
+  .first-div-description a {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .vehical-section-grid {
+    display: grid;
+    grid-gap: 7%;
+    grid-template-columns: repeat(2, 46%);
+    margin-left: 0.5rem;
+  }
+  .vehical-section-first {
+    gap: 2%;
+  }
+  .vehical-marker h1 {
+    padding-right: 0rem;
+  }
+  .qr-code-box-section {
+    height: 9rem;
+    width: 49%;
+  }
+  .qrcode-content {
+    margin: 1rem 0;
+  }
+  .qr-code-icon {
+    margin: 3rem 1rem;
+  }
+  .last-section .two-sections {
+    gap: 10%;
+  }
+  .last-section .two-sections .section-one .last-section-icon {
+    margin-left: 0rem;
+    margin-top: -1rem;
+  }
+
+  .home-section-2-wrap {
+    margin-left: 0rem;
+  }
+  .last-section .two-sections .section-one {
+    margin-right: 2rem;
+    font-size: 100%;
+  }
+  .last-section .two-sections .bottom-line1 {
+    width: 38%;
+    height: 21%;
+  }
+  .last-section .two-sections .bottom-line2 {
+    left: 52%;
+    width: 38%;
+    height: 21%;
+  }
+  .footer-section {
+    padding: 2rem;
+    margin-left: 0rem;
+  }
+  .footer-section .row-part {
+    gap: 5%;
+  }
+  .english-left {
+    margin-left: -35rem;
+    margin-top: 4rem;
+  }
+  .location {
+    margin-left: 0rem;
+    margin-top: 4rem;
+  }
+  .playstore-icons {
+    width: 75rem;
+  }
+  .privacy-rights p {
+    padding-right: 30%;
+  }
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+}
+@media (width>=1025px) and (width<=1200px) {
+  .navbar .third-section {
+    width: auto;
+  }
+  .third-section {
+    margin-left: 2rem;
+  }
+  .backImg img {
+    max-width: 100%;
+    height: calc(100vh - 4rem);
+    object-fit: cover;
+  }
+  .box-section {
+    left: 2rem;
+  }
+  .dialogue-text {
+    margin: -15rem 2rem;
+  }
+  .third-section {
+    width: calc(100% - 4rem);
+  }
+  .first-div-description a {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .second-div .first-div .first-div-img {
+    margin-top: -3rem;
+  }
+  .two-div {
+    margin-bottom: 3rem;
+  }
+  .home-section-2-wrap {
+    margin-left: 0rem;
+    margin-right: -2rem;
+  }
+  .qr-code-box-section {
+    height: 11rem;
+  }
+  .qrcode-content {
+    margin: 2rem 0;
+  }
+  .qr-code-icon {
+    margin: 4rem 2rem;
+  }
+
+  .last-section .two-sections {
+    justify-content: space-between;
+  }
+
+  .last-section .two-sections .section-one {
+    font-size: 1.1rem;
+  }
+  .last-section .two-sections .section-one .last-section-icon {
+    margin-right: -7rem;
+    margin-top: -1rem;
+  }
+  .last-section .two-sections .bottom-line1 {
+    width: 35%;
+  }
+  .last-section .two-sections .bottom-line2 {
+    width: 35%;
+    left: 55%;
+  }
+  .footer-section {
+    padding: 3rem 1.5rem;
+    margin-left: 0rem;
+  }
+  .uber-logo p {
+    padding: 5px 0;
+  }
+  .row-part {
+    grid-gap: 5%;
+  }
+  .icons p {
+    padding-right: 5%;
+  }
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+}
+
+@media (width>=1201px) and (width<=1491px) {
+  .navbar .third-section {
+    width: auto;
+  }
+  .third-section {
+    margin-left: 2rem;
+  }
+  .backImg img {
+    max-width: 100%;
+    height: calc(100vh - 2rem);
+    object-fit: cover;
+  }
+  .box-section {
+    top: 5rem;
+    left: 2rem;
+  }
+  .dialogue-text {
+    margin: -15rem 2rem;
+  }
+  .third-section {
+    width: 71rem;
+  }
+  .first-div-description a {
+    display: block;
+    padding-bottom: 1rem;
+  }
+  .two-div {
+    margin-bottom: 2rem;
+  }
+  .vehical-section-first {
+    gap: 2%;
+  }
+
+  .home-section-2-wrap {
+    margin-left: 0rem;
+  }
+  .qrcode-content {
+    margin: 4rem 0;
+  }
+  .last-section .two-sections .section-one {
+    margin-right: 5rem;
+  }
+  .last-section .two-sections .bottom-line2 {
+    width: 41%;
+  }
+  .footer-section {
+    padding: 2rem 0;
+    margin-left: 2rem;
+  }
+  .uber-logo p {
+    padding: 5px 0;
+  }
+  .row-part {
+    grid-gap: 5%;
+  }
+  .mobile-hide.spmobile {
+    display: none;
+  }
+  .mobile-hide.simobile {
+    display: none;
+  }
+  .footer.spfooter {
+    display: none;
+  }
+  .footer.sifooter {
+    display: none;
+  }
+  .mobile-menu.spmobileHide {
+    display: none;
+  }
+  .mobile-menu.simobileHide {
+    display: none;
+  }
+}
